@@ -1,15 +1,18 @@
-
+body {
+  background-color: bisque;
+}
 
 #contenedor {
   position:relative;
   height:281px;
   width:450px;
-  margin:10px auto;
+  margin:20px auto;
+  
 }
 #contenedor img {
   position:absolute;
   left:0;
-  transition: all 1s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 #contenedor img.top {
