@@ -1,0 +1,28 @@
+.imagen {
+    position: relative;
+    overflow: hidden; /*el contenido se recorta para adaptarse al div */
+    margin: 10px;
+    height: 30vh;
+    width: 20vw;
+    
+  }
+  .imagen img {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    transition: all 2s ease-out;
+  }
+  
+  .imagen:hover img {
+    
+    transform: translateX(150px) rotate(360deg) scaleY(1.5);
+
+  }
+  
+  body {
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,103 @@
+/* #transicion {
+  margin: 15px auto;
+  width: 200px;
+  height: 200px;
+  background-color: #0b0b61;
+  color: #fafafa;
+  line-height: 200px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+.animable {
+  animation-name: cambiarColor;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cambiarColor {
+    from { background-color: #0B0B61;}
+    to { background-color: #FE2E2E;}
+    } */
+
+/* #imagen {
+  background-image: url("../img/paisaje1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 15px auto;
+}
+
+/* @keyframes cambiarImagen {
+  from {
+    background-image: url("../img/paisaje2.jpg");
+  }
+  to {
+    background-image: url("../img/paisaje1.jpg");
+  }
+} */
+
+/* .animable2 {
+  animation-name: cambiarImagen;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}  */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+    position: relative;
+    
+    width: 95vw;
+   
+    height: 95vh;
+    
+  }
+  .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: cambio 12s infinite;
+  }
+  #img1 {
+    animation-delay: 0s;
+    background-image: url('/img/img1.jpg');
+  }
+  #img2 {
+    background-image: url('/img/img2.jpg');
+    animation-delay: 4s;
+  }
+  #img3 {
+    background-image: url('/img/img3.jpeg');
+    animation-delay: 8s;
+  }
+ 
+  @keyframes cambio {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    34% {
+      opacity: 0;
+    }
+    88% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  

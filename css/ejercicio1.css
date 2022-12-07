@@ -1,0 +1,24 @@
+
+  
+body{
+  background: #303030;
+}
+
+.contenedor {
+  position: relative;
+  width:200px;
+  height:200px;
+  margin:15px auto;
+  
+}
+
+.contenedor img {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+  transition: all 2s ease 1s;
+}
+
+.contenedor img.top:hover {
+  opacity: 0;
+}
